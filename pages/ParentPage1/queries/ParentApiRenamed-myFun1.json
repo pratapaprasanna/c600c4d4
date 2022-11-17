@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "myFun2",
-    "fullyQualifiedName": "ParentJsAction1.myFun2",
+    "name": "myFun1",
+    "fullyQualifiedName": "ParentApiRenamed.myFun1",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,15 +14,15 @@
       "userPermissions": []
     },
     "pageId": "ParentPage1",
-    "collectionId": "ParentPage1_ParentJsAction1",
+    "collectionId": "ParentPage1_ParentApiRenamed",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "async () => {}",
+      "body": "() => {}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
-      "isAsync": true
+      "isAsync": false
     },
     "executeOnLoad": false,
     "clientSideExecution": true,
@@ -35,14 +35,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "async () => {}"
+      "() => {}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "ParentPage1_ParentJsAction1.myFun2",
+  "id": "ParentPage1_ParentApiRenamed.myFun1",
   "deleted": false,
-  "gitSyncId": "6375e51c1d1dc4029733465c_6375e52a1d1dc40297334665"
+  "gitSyncId": "6375e51c1d1dc4029733465c_6375e52a1d1dc40297334664"
 }
